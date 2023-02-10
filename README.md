@@ -9,10 +9,10 @@ The purpose of this week's project is help businesses optimize their marketing e
 ### Requirements
 To run the Jupyter Notebook for this project, you will need the following:
 
-Python 3.x
-Jupyter Notebook
-Pandas library
-Numpy library
+- Python 3.x
+- Jupyter Notebook
+- Pandas library
+- Numpy library
 
 ## Delivrable 1
 
