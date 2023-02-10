@@ -3,10 +3,10 @@
 ## Overview of Project
 For this week's project, we will be looking at Big Data and Cloud Services. Big Data is data that has more variety and is generating at high volumes quickly. Spark has become the leading technology for handling big data. This will allow us to process and analyze data quickly and at a massive scale. We will also be using Google Colab since it is hosted in the cloud. This makes it easier to read datasets that are from the cloud as well. Our data will be pulled from Amazon's Simple Storage Service (S3).
 
-### Purpose
+## Purpose
 The purpose of this week's project is help businesses optimize their marketing efforts at BigMarket. The project will be to analyze Amazon reviews written by members of the paid Amazon Vine program. Amazon Vine members are delivered products and are required to publish a review. . We will then be using PySpark to analyze our data to determine if there is any bias toward favorable Vine member reviews. 
 
-### Requirements
+## Requirements
 To run the Jupyter Notebook for this project, you will need the following:
 
 - Python 3.x
@@ -31,12 +31,27 @@ We will be using PySpark to extract the dataset, transform the data, connect to 
 #### Vine_df
 ![vine_df](https://github.com/Hanzian/Amazon_Vine_Analysis/blob/main/Images/Vine_df.png)
 
+## Delivrable 2
 
-## Results
-In order for us to determine if there was a bias of Vine Reviews, we created a dataframe from our Amazon review data that had 6 columns:
-1. review_id: The unique ID of the review.
-2. star_rating: The 1-5 star rating of the review.
-3. helpful_votes: Number of helpful votes.
-4. total_votes: Number of total votes the review received.
-5. vine: Review was written as part of the Vine program.
-6. verified_purchase: The review is on a verified purchase.
+### Analysis
+
+The analysis in the Jupyter Notebook includes the following steps:
+
+- Extraction of the Amazon reviews dataset into a Pandas DataFrame.
+- Transformation of the dataset to clean and prepare the data for analysis.
+- Loading of the cleaned and transformed data into a new DataFrame.
+- Analysis of the Vine reviews and non-Vine reviews to understand the differences between the two.
+- Calculation of the percentage of 5-star reviews for each group.
+
+
+### Results
+
+#### Total of Number of Reviews
+![total](https://github.com/Hanzian/Amazon_Vine_Analysis/blob/main/Images/Total%20Number%20of%20reviews.png)
+
+## Conclusion
+The results of the analysis show that the Amazon Vine program does not have a significant impact on the quality of reviews. The percentage of 5-star reviews is the same for both Vine reviews and non-Vine reviews, with 47.01% of the reviews in each group being 5-star reviews.
+
+## Contributing
+If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
+
